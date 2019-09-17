@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:text="Prix total = "
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:background="@color/colorPrimary"
+        android:layout_margin="120dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/itemCart"
+        android:layout_above="@id/totalPrice"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/confirmCommand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Confirmer la commande"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>

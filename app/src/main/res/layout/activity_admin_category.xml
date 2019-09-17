@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Rajouter un produit"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorSlogan"
+        />
+
+
+    <ImageView
+        android:id="@+id/sucette"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/lolipop" />
+
+    <ImageView
+        android:id="@+id/jelly"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/jelly" />
+
+    <ImageView
+        android:id="@+id/chocolat"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/chocolat" />
+
+    <ImageView
+        android:id="@+id/gummy"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/gummy" />
+
+    <ImageView
+        android:id="@+id/cookie"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/cookies" />
+
+    <ImageView
+        android:id="@+id/marshmallow"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/marshmallows" />
+
+    <Button
+        android:id="@+id/logoutAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Se deconnecter"
+        android:layout_marginLeft="80dp"
+        />
+    <Button
+        android:id="@+id/checkOrdersAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Check les commandes"
+        android:layout_marginLeft="80dp"
+        android:layout_above="@id/logoutAdmin"
+        />
+
+
+
+
+</RelativeLayout>

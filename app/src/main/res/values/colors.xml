@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorSlogan">#161572</color>
+    <color name="colorPrimaryDark">#BB4BCE</color>
+    <color name="colorAccent">#66CFFD</color>
+    <color name="loginText">#0B011D</color>
+    <color name="profil">#FDE6F6</color>
+    <color name="navcolor">#FDF4FC</color>
+    <color name="Toolbar">#F875A3</color>
+    <color name="Settings">#1F1F1F</color>
+</resources>

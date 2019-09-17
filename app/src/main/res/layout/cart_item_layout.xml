@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorPrimaryDark"
+        >
+       <TextView
+           android:id="@+id/layoutNameProduct"
+           android:layout_width="160dp"
+           android:layout_height="wrap_content"
+           android:text="Nom du produit"
+           android:textColor="@android:color/white"
+           android:textSize="15dp"
+           android:layout_marginLeft="4dp"
+           android:textStyle="bold"
+           />
+
+        <TextView
+            android:id="@+id/layoutQuantityProduct"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:text="Quantité"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_marginRight="35dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/layoutPriceProduct"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="4dp"
+            android:text="Prix €"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

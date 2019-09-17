@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_panier"
+            android:icon="@drawable/cart"
+            android:title="Mon panier"
+            android:iconTint="@color/colorSlogan"
+            />
+        <item
+            android:id="@+id/nav_commande"
+            android:icon="@drawable/commande"
+            android:title="Mes commandes"
+            android:iconTint="@color/colorSlogan"
+            />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Paramètres"
+            android:iconTint="@color/colorSlogan"
+            />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Se déconnecter"
+            android:iconTint="@color/colorSlogan"
+            />
+
+        <item
+            android:id="@+id/nav_credit"
+            android:icon="@drawable/credit"
+            android:title="Crédits"
+            android:iconTint="@color/colorSlogan"
+            />
+
+    </group>
+
+</menu>

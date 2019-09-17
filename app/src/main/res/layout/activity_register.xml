@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    >
+
+    <ImageView
+        android:id="@+id/register_applogo"
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        />
+
+    <EditText
+        android:id="@+id/register_phone_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:padding="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/phone_text"
+        android:inputType="number"
+        android:textColor="@color/loginText"
+        android:textColorHint="@color/loginText"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/register_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/register_phone_input"
+        android:padding="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/name_text"
+        android:inputType="text"
+        android:textColor="@color/loginText"
+        android:textColorHint="@color/loginText"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/register_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_name_input"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textWebPassword"
+        android:padding="20dp"
+        android:hint="@string/pass_text"
+        android:textColor="@color/loginText"
+        android:textColorHint="@color/loginText"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:background="@drawable/input_design"
+        />
+
+    <Button
+        android:id="@+id/confirmregister_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_password_input"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/registerbtn"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="@string/confirmregister_text"
+        android:textColor="@color/loginText"
+        />
+
+
+</RelativeLayout>

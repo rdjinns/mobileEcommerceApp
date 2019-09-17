@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmFinalOrderActivity">
+
+
+
+<TextView
+    android:id="@+id/txtConfirm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="19dp"
+    android:textColor="@android:color/black"
+    android:text="Veuillez entrez vos coordonées de livraison"
+    android:layout_margin="15dp"
+    android:layout_centerHorizontal="true"
+    />
+
+    <EditText
+        android:id="@+id/shipName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:hint="Nom"
+        android:layout_margin="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtConfirm"
+        />
+
+    <EditText
+        android:id="@+id/shipNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:hint="Numero de telephone"
+        android:inputType="number"
+        android:layout_margin="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/shipName"
+        />
+    <EditText
+        android:id="@+id/shipAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:hint="Adresse"
+        android:layout_margin="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/shipNumber"
+        />
+    <EditText
+        android:id="@+id/shipCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:hint="Ville"
+        android:layout_margin="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/shipAdress"
+        />
+
+    <Button
+        android:id="@+id/nextCommand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Paiement"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/nextCommand"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/colorPrimary"
+        android:text="Prix total = "
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

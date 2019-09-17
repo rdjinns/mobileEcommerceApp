@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">projetCommerce</string>
+    <string name="login_text">Déjà un compte ? Connectez vous</string>
+    <string name="slogan">Découvrir, acheter vos sucreries en toute simplicité. </string>
+    <string name="join_text">Rejoignez nous !</string>
+    <string name="phone_text">Numéro de téléphone</string>
+    <string name="pass_text">Mot de passe</string>
+    <string name="rem_text">Se souvenir de moi</string>
+    <string name="forget_text">Mot de passe oublié ? </string>
+    <string name="confirmlogin_text">Se connecter</string>
+    <string name="adminMode_text">Developper mode</string>
+    <string name="confirmregister_text">S\'inscrire</string>
+    <string name="name_text">Nom</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="credits">Cette application a été créée par Rafik Sandra et Tawbane.\n
+        Les logos proviennent de flaticon.com\n
+        Les images proviennent de Google image et freepik.com\n
+        Le reste est strictement reservé au groupe du projet et à la HELB.
+    </string>
+
+</resources>

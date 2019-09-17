@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimaryDark"
+        >
+        <TextView
+            android:id="@+id/layoutNameOrder"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/layoutPhoneOrder"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:text="Phone"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginRight="35dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/layoutTotalAmount"
+            android:layout_width="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="4dp"
+            android:text="Prix €"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/layoutAdressOrder"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutTotalAmount"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="4dp"
+            android:text="Adresse"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/layoutDateOrder"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutAdressOrder"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="4dp"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/checkProductBtn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutDateOrder"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="4dp"
+            android:text="Détails"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            />
+        <Button
+            android:id="@+id/sendBtn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutDateOrder"
+            android:layout_alignParentLeft="true"
+            android:text="Envoyer"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
